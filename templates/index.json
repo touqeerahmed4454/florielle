@@ -373,6 +373,7 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
