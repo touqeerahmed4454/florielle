@@ -19,7 +19,7 @@
 
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
-  <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  <div class="{{ section.settings.custom_class }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <image-with-text class="image-with-text {% if section.settings.image_position == 'end' %}image-with-text--reverse{% endif %}">
       {%- if section.settings.image != blank -%}
         <picture>
@@ -91,7 +91,6 @@
               >
                 {{- block.settings.text | escape -}}
               </a>
-
             {%- when 'button' -%}
               {%- if block.settings.text != blank -%}
                 {% render 'button',
@@ -190,7 +189,12 @@
       "id": "remove_vertical_spacing",
       "label": "t:global.spacing.remove_vertical_spacing",
       "default": true
-    }
+    },
+     {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+      }
   ],
   "blocks": [
     {

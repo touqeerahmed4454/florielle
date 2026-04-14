@@ -12,7 +12,7 @@
     }
   </style>
 
-  <div class="{% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
+  <div class="{{ section.settings.custom_class }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
     <image-banner class="image-with-text-block {% if section.settings.enable_parallax %}image-with-text-block--parallax {% endif %}content-over-media content-over-media--{{ section.settings.image_size }}">
       {%- if section.settings.image != blank -%}
         <picture>
@@ -171,7 +171,12 @@
       "id": "remove_vertical_spacing",
       "label": "t:global.spacing.remove_vertical_spacing",
       "default": true
-    }
+    },
+      {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+      }
   ],
   "blocks": [
     {

@@ -1,0 +1,197 @@
+<section id="testimonial-{{ section.id }}" class="testimonial-section-wrapper" style="background-color: {{ section.settings.bg_color }};">
+  <div class="container">
+    
+    <div class="testimonial-display">
+      <div id="testimonial-text-{{ section.id }}" class="testimonial-quote">
+        {%- if section.blocks.size > 1 -%}
+          {{ section.blocks[1].settings.quote }}
+        {%- else -%}
+          {{ section.blocks.first.settings.quote }}
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div class="testimonial-tabs-container">
+      {%- for block in section.blocks -%}
+        {%- liquid 
+          assign is_active = false
+          if forloop.index == 2
+            assign is_active = true
+          elsif section.blocks.size == 1 and forloop.first
+            assign is_active = true
+          endif
+        -%}
+
+        <div class="tab-item {% if is_active %}active{% endif %}" 
+             {{ block.shopify_attributes }}
+             onclick="switchTestimonial('{{ section.id }}', {{ forloop.index0 }}, this)">
+          
+          <div class="tab-image-wrapper">
+            {%- if block.settings.image != blank -%}
+              {{ block.settings.image | image_url: width: 200 | image_tag: loading: 'lazy', class: 'tab-img' }}
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+          </div>
+          
+          <div class="tab-info">
+            <span class="customer-name">{{ block.settings.author_name | newline_to_br }}</span>
+          </div>
+
+          {%- comment -%} Hidden data for JS to pick up {%- endcomment -%}
+          <template data-quote>{{ block.settings.quote }}</template>
+        </div>
+      {%- endfor -%}
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .testimonial-section-wrapper {
+    padding: 80px 20px;
+
+    text-align: center;
+    overflow: hidden;
+    font-family: inherit;
+  }
+  .testimonial-display {
+    max-width: 850px;
+    margin: 0 auto 40px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonial-quote {
+   color: #000;
+text-align: center;
+  font-family: var(--text-font-family);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+    color: {{ section.settings.text_color }};
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  .testimonial-tabs-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .tab-item {
+    cursor: pointer;
+    opacity: 0.3; /* Inactive tabs are faded */
+    transition: all 0.4s ease;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tab-item.active {
+    opacity: 1; /* Active tab is fully visible */
+  }
+  .tab-image-wrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .tab-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .customer-name {
+   color: #000;
+text-align: center;
+  font-family: var(--text-font-family);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+    color: {{ section.settings.text_color }};
+  }
+
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .testimonial-quote { font-size: 20px; padding: 0 10px; }
+    .tab-image-wrapper { width: 80px; height: 80px; }
+    .testimonial-tabs-container { gap: 30px; }
+  }
+</style>
+
+<script>
+  function switchTestimonial(sectionId, index, element) {
+    const textElement = document.getElementById('testimonial-text-' + sectionId);
+    const newQuote = element.querySelector('[data-quote]').innerHTML;
+
+    // Animation transition
+    textElement.style.opacity = '0';
+    
+    setTimeout(() => {
+      textElement.innerHTML = newQuote;
+      textElement.style.opacity = '1';
+
+      // Update Active Class
+      const section = document.getElementById('testimonial-' + sectionId);
+      section.querySelectorAll('.tab-item').forEach(tab => tab.classList.remove('active'));
+      element.classList.add('active');
+    }, 300);
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Testimonial Tabs Full",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "Quote",
+          "default": "“Insert customer testimonial text here.”"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Author Image"
+        },
+        {
+          "type": "textarea",
+          "id": "author_name",
+          "label": "Author Name & Title",
+          "default": "Name\nCustomer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial Tabs",
+      "blocks": [
+        { "type": "testimonial" },
+        { "type": "testimonial" }
+      ]
+    }
+  ]
+}
+{% endschema %}

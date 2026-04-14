@@ -84,7 +84,9 @@
     {%- endif -%}
 
     {%- if show_read_more -%}
-      <a href="{{ article.url | default: '#' }}" class="blog-post-card__read-more link">{{ 'blog.general.read_more' | t }}</a>
+      <a href="{{ article.url | default: '#' }}" class="blog-post-card__read-more link">{{ 'blog.general.read_more' | t }} <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
+  <path d="M12.5303 6.05328C12.8232 5.76038 12.8232 5.28551 12.5303 4.99262L7.75736 0.219648C7.46447 -0.0732457 6.98959 -0.0732457 6.6967 0.219648C6.40381 0.512541 6.40381 0.987415 6.6967 1.28031L10.9393 5.52295L6.6967 9.76559C6.40381 10.0585 6.40381 10.5334 6.6967 10.8262C6.98959 11.1191 7.46447 11.1191 7.75736 10.8262L12.5303 6.05328ZM0 5.52295L6.55671e-08 6.27295L12 6.27295L12 5.52295L12 4.77295L-6.55671e-08 4.77295L0 5.52295Z" fill="#231F20"/>
+</svg></a>
     {%- endif -%}
   </div>
 </div>

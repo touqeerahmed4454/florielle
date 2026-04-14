@@ -15,7 +15,7 @@
 
   {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 
-  <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+  <div class="{{ section.settings.custom_class }} section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container">
       {%- assign wrapper_carousel_id = 'featured-collections-carousel-' | append: section.id -%}
 
@@ -220,7 +220,13 @@
       "label": "t:sections.featured_collections.hide_collection_title",
       "info": "t:sections.featured_collections.hide_collection_title_info",
       "default": false
-    }
+    },
+       {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+      }
+    
   ],
   "blocks": [
     {
