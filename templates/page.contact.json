@@ -1,1 +1,69 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"contact-form":{"type":"contact","settings":{}}},"order":["main","contact-form"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_block_hCJUCF": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_M3nhwr": {
+          "type": "subheading",
+          "settings": {
+            "text": "We'd Love to Hear from You"
+          }
+        },
+        "richtext_Bia4xU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether you have a question about an order, need help choosing the perfect bouquet, or simply want to say hello<br/> — we're here for you. At Florielle, every message matters just as much as every petal.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_M3nhwr",
+        "richtext_Bia4xU"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/Rectangle_26122.webp",
+        "mobile_image": "shopify://shop_images/Rectangle_26122_1.webp",
+        "content_width": "lg",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true,
+        "custom_class": "contact-us-top"
+      }
+    },
+    "contact-form": {
+      "type": "contact",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "Contact",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_block_hCJUCF",
+    "contact-form"
+  ]
+}

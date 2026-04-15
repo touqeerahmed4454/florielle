@@ -84,11 +84,7 @@
                       <p class="h6">{{ block.settings.title }}</p>
                     {%- endif -%}
 
-                    {%- if block.settings.content != blank -%}
-                      <div class="prose text-subdued">
-                        {{- block.settings.content -}}
-                      </div>
-                    {%- endif -%}
+                  
 
                     {%- assign newsletter_form_id = 'newsletter-form-' | append: section.id -%}
 
@@ -106,13 +102,36 @@
 
                         {%- assign input_label = 'general.newsletter.email' | t -%}
                         {%- render 'input', name: 'contact[email]', label: input_label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
+  {%- if block.settings.content != blank -%}
+                      <div class="prose text-subdued">
+                        {{- block.settings.content -}}
+                      </div>
+                    {%- endif -%}
 
-                        <div class="align-self-start">
+                           <div class="align-self-start">
                           {%- assign button_label = 'general.newsletter.subscribe' | t -%}
-                          {%- render 'button', type: 'submit', content: button_label, background: block.settings.button_background, text_color: block.settings.button_text_color -%}
-                        </div>
+  <button class="button"  type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="23" height="23" rx="11.5" stroke="white"/>
+<g clip-path="url(#clip0_210_1351)">
+<path d="M17.7866 12.4072C17.8423 12.2968 17.8611 12.1678 17.8616 12.0388C17.8616 12.0388 17.8616 12.0388 17.8617 12.0019C17.8618 11.9651 17.8618 11.9835 17.8618 11.9651C17.8623 11.8361 17.8443 11.707 17.7893 11.5962C17.7528 11.4855 17.6794 11.4115 17.606 11.3191C17.606 11.3006 17.5876 11.2821 17.5693 11.2636L12.7564 6.41792C12.3522 6.01103 11.6887 6.00878 11.2818 6.41291C10.8749 6.81705 10.8726 7.48062 11.2768 7.88752L14.3262 10.9577L7.15592 10.9333C6.58451 10.9314 6.12214 11.3906 6.1202 11.9621C6.11825 12.5335 6.5775 12.9958 7.14891 12.9978L14.3191 13.0221L11.249 16.0715C10.8421 16.4757 10.8398 17.1392 11.244 17.5461C11.446 17.7496 11.7038 17.8426 11.9803 17.8436C12.2567 17.8445 12.5151 17.7532 12.7186 17.5511L17.5643 12.7382C17.5643 12.7382 17.5828 12.7014 17.6013 12.6831C17.6753 12.6096 17.7309 12.5176 17.7866 12.4072Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_210_1351">
+<rect width="12" height="12" fill="white" transform="translate(6 6)"/>
+</clipPath>
+</defs>
+</svg>
+
+
+  </button>
+              
+                          </div>
                       {%- endif -%}
                     {%- endform -%}
+                    {%- if section.settings.show_social_media -%}
+        {%- render 'social-media', layout: 'list' -%}
+      {%- endif -%}
                   </div>
 
               {%- endcase -%}
@@ -133,9 +152,7 @@
         ------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
-      {%- if section.settings.show_social_media -%}
-        {%- render 'social-media', layout: 'list' -%}
-      {%- endif -%}
+      
 
       {%- comment -%}
         ------------------------------------------------------------------------------------------------------------------

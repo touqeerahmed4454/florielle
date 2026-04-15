@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_block_yP8mcc": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/Rectangle_26122.webp",
+        "mobile_image": "shopify://shop_images/Rectangle_26122_1.webp",
+        "content_width": "sm",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true,
+        "custom_class": ""
+      }
+    },
+    "rich_text_xzmEBH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JNG7M3": {
+          "type": "heading",
+          "settings": {
+            "text": "Born from a Love of Flowers",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_TVgPc9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Florielle, we believe that flowers are more than just a gift — they're a feeling. A moment of joy, a gesture of love, a way to say what words sometimes can't. That belief is at the heart of everything we do.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JNG7M3",
+        "richtext_TVgPc9"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false,
+        "custom_class": "about-us-rich"
+      }
+    },
+    "image_with_text_wKYLhk": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Kaznqx": {
+          "type": "subheading",
+          "settings": {
+            "text": "Our Story"
+          }
+        },
+        "heading_6f4BQY": {
+          "type": "heading",
+          "settings": {
+            "text": "Freshness You Can See & Smell",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_fXKLxD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We take freshness seriously. Every single day, we source the finest blooms so that when your bouquet arrives, it's at its most vibrant and fragrant best. No sitting in cold storage for days — just flowers at their peak, ready to brighten your space or someone else's day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Kaznqx",
+        "heading_6f4BQY",
+        "richtext_fXKLxD"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Final-Home-page_07.webp",
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "custom_class": "signature-luxury about-one"
+      }
+    },
+    "image_with_text_CjziR7": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Ldj3Wy": {
+          "type": "subheading",
+          "settings": {
+            "text": "Flower Care"
+          }
+        },
+        "heading_RmFgTW": {
+          "type": "heading",
+          "settings": {
+            "text": "A Little Love Goes a Long Way",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_KfPc9R": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Your flowers have traveled to reach you — and with just a few simple steps, you can help them bloom beautifully for days to come. Here's everything you need to know to keep your bouquet looking its best.</p><p></p><ul><li>Trim the Stems Before Placing in Water</li><li>Use a Clean Vase with Fresh Water</li><li>Add the Flower Food Sachet</li><li>Find the Perfect Spot<br/><br/><br/><br/><br/></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Ldj3Wy",
+        "heading_RmFgTW",
+        "richtext_KfPc9R"
+      ],
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Final-Home-page_07.webp",
+        "reveal_on_scroll": false,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "custom_class": "signature-luxury about-two"
+      }
+    },
+    "multi_column_dGUXnc": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_HQKckP": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Frame-2147227480_08.png",
+            "title": "Crafted with Intention",
+            "heading_tag": "h4",
+            "content": "<p>Each Florielle arrangement is thoughtfully put together by hand. We pay attention to every stem, every petal, every detail.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_NWy4Q7": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Frame-2147227480_05.png",
+            "title": "Made for Every Moment",
+            "heading_tag": "h4",
+            "content": "<p>Whether you're celebrating a birthday, marking an anniversary, saying thank you, or simply wanting to add a little beauty to an ordinary Tuesday — Florielle is here for it.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_cKD3UQ": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Frame-2147227480_02.png",
+            "title": "Let's Grow Together",
+            "heading_tag": "h4",
+            "content": "<p>We're so glad you found us. Explore our collections, and don't hesitate to reach out if you need help choosing the perfect arrangement.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_HQKckP",
+        "image_with_text_NWy4Q7",
+        "image_with_text_cKD3UQ"
+      ],
+      "disabled": true,
+      "name": "t:sections.multi_column.presets.multi_column.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "lg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "custom_class": "home-trust about-us-three"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_block_yP8mcc",
+    "rich_text_xzmEBH",
+    "image_with_text_wKYLhk",
+    "image_with_text_CjziR7",
+    "multi_column_dGUXnc"
+  ]
+}

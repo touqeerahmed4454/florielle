@@ -1,1 +1,275 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"vendor","settings":{}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"payment_terms":{"type":"payment_terms","settings":{}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{}},"pickup_availability":{"type":"pickup_availability","settings":{}},"complementary_products":{"type":"complementary_products","settings":{}}},"block_order":["vendor","title","price","payment_terms","separator","description","variant_picker","quantity_selector","buy_buttons","complementary_products"],"settings":{}},"related-products":{"type":"related-products","settings":{}}},"order":["main","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "variant_image_show_underline": false,
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "complementary_products"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
+        "container_size": "full",
+        "product_info_size": 43,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid_2x",
+        "desktop_media_grid_gap": 20,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "scrolling_content_qHP4jj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_gYbCh8": {
+          "type": "text",
+          "settings": {
+            "text": "Every Bloom, A Beautiful Emotion"
+          }
+        },
+        "image_pD8PkM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_9.webp"
+          }
+        }
+      },
+      "block_order": [
+        "text_gYbCh8",
+        "image_pD8PkM"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": false,
+        "scrolling_speed": 0.2,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 24,
+        "text_font_size_desktop": 54,
+        "section_vertical_spacing_mobile": 38,
+        "section_vertical_spacing_desktop": 52,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 25,
+        "background": "#ffffff",
+        "text_color": ""
+      }
+    },
+    "image_with_text_gpir6J": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4Bw94K": {
+          "type": "heading",
+          "settings": {
+            "text": "Thoughtful Hand Delivery",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_7KjpUN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Your precious gift deserves the utmost care. Our dedicated team ensures each bouquet is hand-delivered with precision and a personal touch, arriving in pristine condition to delight its recipient. Experience seamless service from our hands to yours.</p>"
+          }
+        },
+        "button_YQeUbj": {
+          "type": "button",
+          "settings": {
+            "custom_class_btn": "",
+            "style": "solid",
+            "text": "discover more",
+            "url": "shopify://collections/birthday-flowers",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4Bw94K",
+        "richtext_7KjpUN",
+        "button_YQeUbj"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/Final-Home-page_07.webp",
+        "mobile_image": "shopify://shop_images/Final-Home-page_07.webp",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": true,
+        "custom_class": "signature-luxury"
+      }
+    },
+    "testimonials_tabs_AnGjBU": {
+      "type": "testimonials-tabs",
+      "blocks": {
+        "testimonial_FjrXwT": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "“I love it! Far from the fashions that compress and impede movement. Soft and solid material. It can be worn casually as well as for a more formal evening.”",
+            "image": "shopify://shop_images/Ellipse_1_1.webp",
+            "author_name": "Johanne — Customer"
+          }
+        },
+        "testimonial_GWpJQm": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "“I love it! Far from the fashions that compress and impede movement. Soft and solid material. It can be worn casually as well as for a more formal evening.”",
+            "image": "shopify://shop_images/Ellipse_3.webp",
+            "author_name": "Louise — Customer"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_FjrXwT",
+        "testimonial_GWpJQm"
+      ],
+      "name": "Testimonial Tabs",
+      "settings": {
+        "text-heading": "Real people with real reviews",
+        "bg_color": "#f4f4f4",
+        "text_color": "#000000"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Related products",
+        "content": ""
+      }
+    },
+    "17762331012b76a565": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_qiqrqz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_qiqrqz"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling_content_qHP4jj",
+    "image_with_text_gpir6J",
+    "testimonials_tabs_AnGjBU",
+    "related-products",
+    "17762331012b76a565"
+  ]
+}

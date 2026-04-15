@@ -122,11 +122,11 @@
 {%- endcapture -%}
 
 {%- if href != blank -%}
-  <a {{ attributes }} {{ block.shopify_attributes }}>
+  <a class="button {{ custom_class }}" {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}}
   </a>
 {%- else -%}
-  <button type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+  <button class="button {{ custom_class }}" type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}} 
 
   </button>

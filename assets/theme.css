@@ -4549,7 +4549,7 @@ product-rerender {
 
   .collection-toolbar__layout-switch-list {
     border-inline-width: 0 0px;
-    padding-inline: 1.875rem;
+    padding-inline:3rem;
   }
 
   .collection-toolbar__products-count {
@@ -8401,7 +8401,8 @@ ul {
   font-family: var(--heading-font-family);
   font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
+  text-align: right;
   line-height: normal;
 }
 .home-page-banner div p{
@@ -8411,8 +8412,20 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+    text-align: right;
   text-transform: capitalize;
 }
+
+.button.green-btn{
+  background: #536120;
+  border: 1px solid #536120;
+  margin-left:20px;
+}
+
+.home-page-banner .prose{
+text-align: right;
+}
+
 .testimonial-card {
   display: inline-block;
   align-items: center;
@@ -8491,12 +8504,12 @@ ul {
   color: #000;
   text-align: center;
   font-family: var(--text-font-family);
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
 .product-card  .price-list sale-price{
-  color: #FA3C7A;
+  color: #99163A;
   text-align: center;
   font-family: var(--text-font-family);
   font-size: 16px;
@@ -8511,25 +8524,10 @@ ul {
   display: none;
 }
 .scrolling-content__item .scrolling-content__text.heading{
-  font-family: sans-serif;
   text-transform: capitalize;
-  color: transparent; 
-  -webkit-text-stroke: 1.5px black; 
-  text-stroke: 1.5px black; 
+  color: #536120; 
 }
-.scrolling-content__item .scrolling-content__text.heading:hover{
-   color: #000;
-}
-@keyframes shine-effect {
-  0% {
-    left: -100%;
-    transition-property: left;
-  }
-  100% {
-    left: 100%;
-    transition-property: left;
-  }
-}
+
 
 .button {
   position: relative;
@@ -8537,15 +8535,15 @@ ul {
   display: inline-flex; 
   align-items: center;
   border-radius: 50px;
-  border: 1px solid #EAA44B;
-  background: #EAA44B;
-  color: #000;
-  font-family: var(--heading-font-family);
+  border: 1px solid #99163A;
+  background: #99163A;
+  color: #FFF;
+   font-family: var(--text-font-family);
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
-  padding: 14px 34px;
+  padding: 13px 34px;
   text-transform: uppercase;
   justify-content: center;
   transition: all 0.3s ease;
@@ -8574,12 +8572,13 @@ ul {
 }
 .home-trust .multi-column__item .multi-column__media img{
   margin:auto;
+  width: 81px;
 } 
 .home-trust .multi-column__item {
   gap: 1rem;
 }
 .home-trust .multi-column__item .prose p.h4{
- color: #fff;
+ color: #000;
  text-align: center;
  font-family: var(--text-font-family);
  font-size: 20px;
@@ -8588,7 +8587,7 @@ ul {
  line-height: normal;
 }
 .home-trust .multi-column__item .prose p{
- color: #FFF;
+ color: #000;
  text-align: center;
  margin-block-start:10px;
  font-family: var(--text-font-family);
@@ -8598,7 +8597,7 @@ ul {
  line-height: normal;
 }   
 .home-trust{padding-top: 45px;
-  padding-bottom: 45px;}
+  padding-bottom:70px;}
 
 .signature-luxury .prose {
   padding-inline-start: 3rem;
@@ -8609,7 +8608,7 @@ ul {
   font-family: var(--heading-font-family);
   font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
  line-height: normal;
 }
 .signature-luxury .prose div p{
@@ -8641,7 +8640,7 @@ ul {
   font-family: var(--heading-font-family);
   font-size: 50px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
 }
 .sameday .content div p{
@@ -8659,15 +8658,15 @@ ul {
   display: inline-flex;
   align-items: center;
   border-radius: 50px;
-  border: 1px solid #EAA44B;
-  background: #eaa44b;
-  color: #000;
-  font-family: var(--heading-font-family);
+  border: 1px solid #99163A;
+  background: #99163A;
+  color: #fff;
+   font-family: var(--text-font-family);
   font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
-  padding: 14px 34px;
+  padding: 13px 34px;
   text-transform: uppercase;
   justify-content: center;
   transition: all .3s ease;
@@ -8686,5 +8685,361 @@ ul {
   padding-bottom: 30px;
 }
 
+.footer .footer__block-list p.h6{
+  color: #231F20;
+  font-family: var(--text-font-family);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117%;
+  letter-spacing: 0px;
+}
+.footer__block.footer__block--links ul li a{
+  color:rgba(125, 111, 115, 1);
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer__block.footer__block--links .v-stack.unstyled-list{
+  gap:5px;
+}
 
+.footer__block--newsletter form .form-control input {
+  height: 53px;
+  background: #99163A;
+  border-radius: 50px;
+  border: 1px solid #99163A;
+  color: #fff;
+  padding: 0 20px;
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.footer__block--newsletter form button.button {
+  position: absolute;
+  top: 6px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  z-index: 1;
+}
+.footer__block--newsletter form {
+  position: relative;
+}
+.footer .footer__block--newsletter{
+  flex-basis: 27rem;
+  max-width: 27rem;
+}
+.footer .social-media--list .social-media__item,
+.footer .social-media--list .social-media__item:hover {
+  opacity: 1;
+}
+.footer__block--newsletter form .prose p{
+  color: #7D6F73;
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+ }   
+.footer .social-media--list{
+  margin-top:-20px;
+}
+.footer__aside p{
+  color: #7D6F73;
+  font-family: var(--text-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+} 
+.footer__block--newsletter form .form-control input::placeholder {
+  color: #fff !important;
+  opacity: 1;
+}
+.footer__block--newsletter form .form-control input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+.footer__block--newsletter form .form-control input::-moz-placeholder {
+  color: #fff !important;
+  opacity: 1;
+}
+.footer__block--newsletter form .form-control input:-ms-input-placeholder {
+  color: #fff !important;
+}
+.blog-cards-new h2{
+  color: #000;
+  text-align: center;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.blog-cards-new .blog-post-list {
+  --blog-post-list-items-per-row: 4;
+  --blog-post-list-column-gap: 20px;
+}
+.blog-cards-new .container--lg {
+ --container-max-width: 100%;
+}
+.blog-post-card a.overflow-hidden{
+  border-radius:12px;
+}
+.blog-post-card__info span time{
+  color: #231F20;
+  font-family: var(--text-font-family);
+  font-size:16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.blog-post-card__title{
+  color: #231F20;
+  font-family: var(--text-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.blog-post-card__info {
+  row-gap: 10px;
+ }
+.blog-post-card__read-more{
+  color: #231F20;
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+.blog-post-card__read-more svg{
+  display: inline-block;
+  margin-left: 10px;
+}
+.collection-template .breadcrumb .breadcrumb__list-item a{
+  color: #000;
+  font-family: var(--text-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+ .collection-banner .prose h1{
+  color: #000;
+  font-family: var(--heading-font-family);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.collection-toolbar__button-list .collection-toolbar__button-container:last-child .collection-toolbar__button{
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: #FFF;
+  width: 200px;
+  padding: 11px 20px;
+  margin-top: 11px;
+  color: #000;
+  font-size: 14px;
+  font-family:var(--text-font-family);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 1;
+}
+.collection-toolbar__button-list .collection-toolbar__button-container:last-child .collection-toolbar__button .text-with-icon {
+  gap: 10px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.collection-toolbar__products-count{
+  color: #000;
+  font-family:var(--text-font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top:15px;
+  transform: inherit;
+}
+.collection-toolbar__button-list{
+  padding-right:3rem;
+}
+.collection-toolbar {
+  padding-top: 50px;
+}
+.accordion-list summary .accordion__toggle span{
+ color: #000;
+ font-family:var(--text-font-family);
+ font-size: 24px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}      
+.accordion-list summary .accordion__toggle svg{
+  width: 18px;
+}
+ .collection-template .product-card .product-card__media img,
+ .collection-template .product-card .product-card__media{
+  border-radius: 12px;
+ }
+ .collection-template .product-list{
+  --product-list-default-row-gap:2rem;
+  --product-list-default-column-gap:25px;
+ }
+.collection-template .collection{
+  --collection-sidebar-width: 25rem;
+ }    
+ .collection-template .collection .product-list[collection-desktop-layout=large] {
+ --product-list-items-per-row: 2;
+}
+ .collection-template .collection .product-list[collection-desktop-layout=medium] {
+ --product-list-items-per-row: 3;
+}
+.collection-template .collection .product-list[collection-desktop-layout=compact] {
+  --product-list-items-per-row: 4;
+}
+.product-card .rating-badge{
+  margin-top:-7px;
+}
+.product-card .rating-badge__stars svg,
+
+.product-card .rating-badge__stars svg path{
+  fill: #E89B44;
+  stroke: #E89B44;
+}
+.product-card .rating-badge span{
+  color: #9B9B9B;
+  text-align: center;
+  font-family:var(--text-font-family);
+  font-size:12px;
+  font-style: normal;
+  font-weight: 400;
+}
+ .product-template .product-card .product-card__media img,
+ .product-template .product-card .product-card__media{
+  border-radius: 12px;
+ }
+.product-template  .product-list {
+  --product-list-default-row-gap: 4rem;
+  --product-list-default-column-gap: 20px;
+  --product-list-max-items-per-row-allowed: 3;
+}
+product-recommendations .section-header h2{
+font-weight: 500;
+font-size: 52px;
+line-height: 100%;
+padding-top: 30px;
+padding-bottom:5px;
+letter-spacing: 0%;
+}
+product-recommendations .section-header{
+    justify-self: self-start;
+}
+.product-template .signature-luxury {
+    padding-top: 30px;
+}
+.product-gallery__image-list .product-gallery__media img,
+.product-gallery__image-list .product-gallery__media{
+ border-radius: 12px;
+}
+
+
+
+
+
+
+
+.about-us-rich  .prose p.h2{
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.about-us-rich  .prose div p{
+  font-weight: 400;
+  font-size: 16px;
+  font-family:var(--text-font-family);
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+.about-us-rich{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.signature-luxury .prose p.h6{
+  font-family:var(--text-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.signature-luxury.about-one {
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+.signature-luxury.about-one .prose {
+   padding-inline-end: 12rem;
+}
+.signature-luxury.about-two picture {
+    padding-right: 0;
+    padding-left: 3rem;
+}
+
+.signature-luxury.about-two {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.signature-luxury.about-two .prose {
+   padding-inline-end: 15rem;
+}
+.home-trust.about-us-three .multi-column__item .multi-column__media img {
+    margin: auto;
+    width: 120px;
+}
+.home-trust.about-us-three .multi-column__item .prose p.h4{
+  font-size: 20px;
+}
+.home-trust.about-us-three .multi-column__item .prose p{
+  font-size: 14px;
+  padding: 0px 3rem;
+}
+
+.contact-us-top .content{
+  background: none;
+  box-shadow: none;
+  width: 100%;
+  
+  max-width: 80%;
+}
+.contact-us-top .content .prose p.h6{
+font-weight: 500;
+font-style: Medium;
+font-size: 52px;
+letter-spacing: 0%;
+color:#fff;
+text-align: center;
+  font-family: var(--heading-font-family);
+}
+
+.contact-us-top .content .prose div p{
+  font-family:var(--text-font-family);
+font-weight: 400;
+color:#fff;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
 

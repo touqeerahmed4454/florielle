@@ -1,6 +1,13 @@
 <section id="testimonial-{{ section.id }}" class="testimonial-section-wrapper" style="background-color: {{ section.settings.bg_color }};">
   <div class="container">
     
+
+ {%- if section.settings.text-heading != blank -%}
+          
+                      <h2 class="heading-reviews">{{ section.settings.text-heading }}</h2>
+                    </div>
+                  {%- endif -%}
+
     <div class="testimonial-display">
       <div id="testimonial-text-{{ section.id }}" class="testimonial-quote">
         {%- if section.blocks.size > 1 -%}
@@ -55,6 +62,16 @@
     overflow: hidden;
     font-family: inherit;
   }
+
+  .heading-reviews{
+  color: #000;
+    text-align: center;
+    font-size: 42px;
+    font-family: var(--heading-font-family);
+    font-style: normal;
+    padding-bottom: 40px;
+    font-weight: 500;
+    line-height: normal;}
   .testimonial-display {
     max-width: 850px;
     margin: 0 auto 40px;
@@ -146,6 +163,11 @@ font-weight: 400;
 {
   "name": "Testimonial Tabs Full",
   "settings": [
+      {
+          "type": "text",
+          "id": "text-heading",
+          "label": "heading"
+        },
     {
       "type": "color",
       "id": "bg_color",

@@ -28,6 +28,18 @@
         "button_dxNNQ9": {
           "type": "button",
           "settings": {
+            "custom_class_btn": "",
+            "style": "solid",
+            "text": "Shop Bouquet",
+            "url": "shopify://collections/birthday-flowers",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_eAnbPz": {
+          "type": "button",
+          "settings": {
+            "custom_class_btn": "green-btn",
             "style": "solid",
             "text": "Shop Bouquet",
             "url": "shopify://collections/birthday-flowers",
@@ -46,6 +58,7 @@
         "heading_PqHChh",
         "richtext_Ey8MiT",
         "button_dxNNQ9",
+        "button_eAnbPz",
         "liquid_wXJWat"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
@@ -180,7 +193,7 @@
         "image-with-text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Frame_2.svg",
+            "image": "shopify://shop_images/Frame-2147227482_02.png",
             "title": "Fresh Daily Flowers",
             "heading_tag": "h4",
             "content": "<p>We source fresh flowers every day to ensure every bouquet arrives vibrant and long-lasting.</p>",
@@ -191,7 +204,7 @@
         "image-with-text-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/container-truck-02.svg",
+            "image": "shopify://shop_images/Frame-2147227482_04.png",
             "title": "Same-Day Delivery",
             "heading_tag": "h4",
             "content": "<p>Order before 4 PM for reliable same-day flower delivery across Dubai.</p>",
@@ -202,7 +215,7 @@
         "image-with-text-3": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Group.svg",
+            "image": "shopify://shop_images/Frame-2147227482_06.png",
             "title": "Handcrafted Arrangements",
             "heading_tag": "h4",
             "content": "<p>Each bouquet is thoughtfully designed by skilled florists with attention to every detail.</p>",
@@ -213,7 +226,7 @@
         "image_with_text_RTpLce": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/security-check.svg",
+            "image": "shopify://shop_images/Frame-2147227482_09.png",
             "title": "Secure Online Ordering",
             "heading_tag": "h4",
             "content": "<p>Enjoy a smooth and secure checkout experience with multiple payment options available.</p>",
@@ -229,8 +242,8 @@
         "image_with_text_RTpLce"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
         "columns_per_row": 4,
         "stack_on_mobile": false,
         "overlap_image": false,
@@ -262,6 +275,7 @@
         "button_Pe7AB7": {
           "type": "button",
           "settings": {
+            "custom_class_btn": "",
             "style": "solid",
             "text": "discover more",
             "url": "",
@@ -278,7 +292,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-2",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "image": "shopify://shop_images/Final-Home-page_07.webp",
         "mobile_image": "shopify://shop_images/Final-Home-page_07.webp",
         "reveal_on_scroll": false,
@@ -314,6 +328,7 @@
       ],
       "name": "Testimonial Tabs",
       "settings": {
+        "text-heading": "Real people with real reviews",
         "bg_color": "#f4f4f4",
         "text_color": "#000000"
       }
@@ -373,7 +388,6 @@
     },
     "blog-posts": {
       "type": "blog-posts",
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,

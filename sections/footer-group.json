@@ -16,7 +16,6 @@
       "blocks": {
         "links": {
           "type": "links",
-          "disabled": true,
           "settings": {
             "menu": "shop",
             "show_menu_title": true,
@@ -25,7 +24,6 @@
         },
         "links_kx76f3": {
           "type": "links",
-          "disabled": true,
           "settings": {
             "menu": "explore",
             "show_menu_title": true,
@@ -34,7 +32,6 @@
         },
         "links_yUhDB9": {
           "type": "links",
-          "disabled": true,
           "settings": {
             "menu": "need-some-help",
             "show_menu_title": true,

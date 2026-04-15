@@ -99,6 +99,7 @@
                   style: block.settings.style,
                   background: block.settings.background,
                   text_color: block.settings.text_color,
+                  custom_class: block.settings.custom_class_btn,
                   block: block
                 %}
               {%- endif -%}
@@ -309,6 +310,11 @@
       "type": "button",
       "name": "t:sections.image_with_text.blocks.button.name",
       "settings": [
+           {
+      "type": "text",
+      "id": "custom_class_btn",
+      "label": "Custom Class"
+      },
         {
           "type": "select",
           "id": "style",
