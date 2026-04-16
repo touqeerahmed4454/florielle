@@ -2,6 +2,18 @@
 
 <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
   <div class="container container--xs">
+
+<div class="contect-left-img">
+  {%- if section.settings.image != blank -%}
+    {{ section.settings.image | image_url: width: 800 | image_tag: 
+      loading: 'lazy', 
+      sizes: '100vw', 
+      widths: '400, 600, 800',
+      alt: block.settings.image.alt | escape 
+    }}
+ {%- endif -%}
+</div>
+
     <div class="section-stack text-center">
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' -%}
 
@@ -77,6 +89,11 @@
       "id": "separate_section_with_border",
       "label": "t:global.section.separate_section_with_border",
       "default": true
+    },
+     {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Select Image"
     },
     {
       "type": "inline_richtext",

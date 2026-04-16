@@ -22,15 +22,24 @@
             "heading_tag": "h3"
           }
         },
+        "rating_44aGL7": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "count"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
+        "text_ynnCTh": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.short_description | metafield_tag }}"
+          }
         },
         "separator": {
           "type": "separator",
@@ -41,6 +50,17 @@
           "settings": {
             "collapse_content": false,
             "show_below_gallery": false
+          }
+        },
+        "product_features_WUWcaQ": {
+          "type": "product_features",
+          "settings": {
+            "icon_1": "shopify://shop_images/Frame-1000009344_02.png",
+            "text_1": "Fresh Daily Flowers",
+            "icon_2": "shopify://shop_images/Frame-1000009344_04.png",
+            "text_2": "Same-Day Dubai Delivery",
+            "icon_3": "shopify://shop_images/Frame-1000009344_06.png",
+            "text_3": "Secure Online Ordering"
           }
         },
         "variant_picker": {
@@ -56,41 +76,81 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
-            "show_gift_card_recipient": true,
+            "show_gift_card_recipient": false,
             "atc_button_background": "",
             "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "payment_button_background": "#536120",
+            "payment_button_text_color": "#ffffff"
           }
         },
-        "complementary_products": {
-          "type": "complementary_products",
+        "accordion_Utp89L": {
+          "type": "accordion",
           "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Flower List",
+            "content": "{{ product.metafields.custom.flower_list | metafield_tag }}",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_RtkVBF": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Perfect Gift For...",
+            "content": "{{ product.metafields.custom.perfect_gift_for | metafield_tag }}",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_qVzggM": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "How To Care For Your Flowers",
+            "content": "{{ product.metafields.custom.how_to_care_for_your_flowers | metafield_tag }}",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_KYKfHz": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Delivery Information",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "liquid": "",
+            "page": ""
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "rating_44aGL7",
         "price",
-        "payment_terms",
+        "text_ynnCTh",
         "separator",
         "description",
+        "product_features_WUWcaQ",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "complementary_products"
+        "accordion_Utp89L",
+        "accordion_RtkVBF",
+        "accordion_qVzggM",
+        "accordion_KYKfHz"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -98,7 +158,7 @@
         "transparent_header_use_primary_colors": false,
         "container_size": "full",
         "product_info_size": 43,
-        "show_sticky_add_to_cart": true,
+        "show_sticky_add_to_cart": false,
         "center_basic_info": false,
         "desktop_media_layout": "grid_2x",
         "desktop_media_grid_gap": 20,
@@ -236,7 +296,7 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "",
-        "title": "Related products",
+        "title": "You May Also Like",
         "content": ""
       }
     },
