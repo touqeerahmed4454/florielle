@@ -194,16 +194,16 @@
         "separate_section_with_border": false,
         "scrolling_speed": 0.2,
         "scroll_direction": "left",
-        "pause_on_hover": false,
+        "pause_on_hover": true,
         "text_font": "heading",
-        "text_font_size_mobile": 24,
+        "text_font_size_mobile": 30,
         "text_font_size_desktop": 54,
-        "section_vertical_spacing_mobile": 38,
+        "section_vertical_spacing_mobile": 10,
         "section_vertical_spacing_desktop": 52,
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 25,
         "background": "#ffffff",
-        "text_color": ""
+        "text_color": "#ffffff"
       }
     },
     "image_with_text_gpir6J": {
@@ -228,7 +228,7 @@
             "custom_class_btn": "",
             "style": "solid",
             "text": "discover more",
-            "url": "shopify://collections/birthday-flowers",
+            "url": "https://florielle.ae/pages/about-us?view=about-us&pb=0&preview_theme_id=141652656194",
             "background": "",
             "text_color": ""
           }

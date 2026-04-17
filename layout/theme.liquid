@@ -117,5 +117,34 @@
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  function moveBlocksForMobile() {
+    // Mobile width check (768px se niche)
+    if (window.innerWidth <= 768) {
+      const productContainer = document.querySelector('product-rerender'); // Aapka main container
+      
+      // Blocks ko select karna
+      const vendor = document.querySelector('[data-block-id="vendor"]');
+      const title = document.querySelector('[data-block-id="title"]');
+      const ratingGroup = document.querySelector('[data-group-type="text-with-rating"]');
+
+      if (productContainer) {
+        // Blocks ko top par move karna (Reverse order mein append karein taake order sahi rahe)
+        if (ratingGroup) productContainer.prepend(ratingGroup);
+        if (title) productContainer.prepend(title);
+        if (vendor) productContainer.prepend(vendor);
+      }
+    }
+  }
+
+  // Page load hote hi run karein
+  moveBlocksForMobile();
+
+  // Screen resize hone par bhi check karein (optional)
+  window.addEventListener('resize', moveBlocksForMobile);
+});
+  </script>
+    
   </body>
 </html>
