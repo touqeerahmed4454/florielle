@@ -9383,6 +9383,14 @@ display: block;
 }
 
 @media screen and (max-width: 749px) {
+  .scrolling-content__image>img{
+    margin-top: -14px;
+        max-width: 58px;
+}
+.feature-column img {
+    width: 50px;
+  }
+
 .quote-icon{
   right:auto;
   left:0px;
