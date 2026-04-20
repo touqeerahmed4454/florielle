@@ -1,1 +1,147 @@
-{"sections":{"faq":{"type":"faq","blocks":{"category":{"type":"category","settings":{"title":"Order"}},"question-1":{"type":"question","settings":{"question":"Do you ship overseas?","answer":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"question-2":{"type":"question","settings":{"question":"How long will it take to get my orders?","answer":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"question-3":{"type":"question","settings":{"question":"Any question?","answer":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["category","question-1","question-2","question-3"],"settings":{}}},"order":["faq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Ordering & Personalization</strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How can I place an order?</strong>",
+            "answer": "<p>Simply browse our collections, select your preferred bouquet (like the \"Bloom Palette\"), enter the recipient's details, and proceed to checkout. You will receive an order confirmation email immediately.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I include a personal message with the flowers?</strong>",
+            "answer": "<p>Yes, absolutely! During the checkout process, you will find a section to add a gift message. We will print your message on a premium card and tuck it safely inside the bouquet.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you offer custom floral arrangements?</strong>",
+            "answer": "<p>We love creating something unique. If you have a specific vision or a particular flower in mind that isn't listed, please reach out to us at hello@florielle.ae and our florists will be happy to assist.</p>"
+          }
+        },
+        "category_CrWQ84": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Delivery in Dubai</strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_F7HnJh": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you offer Same-Day Delivery?</strong>",
+            "answer": "<p>Yes, we offer same-day delivery across Dubai for orders placed before [Insert Time, e.g., 1:00 PM]. Orders placed after this time will be scheduled for the following day or your chosen date.</p>"
+          }
+        },
+        "question_gnrXw9": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What are your delivery charges?</strong>",
+            "answer": "<p>Delivery fees are calculated at checkout based on the specific area in Dubai.</p>"
+          }
+        },
+        "question_ii7Hgr": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What happens if the recipient is not at home?</strong>",
+            "answer": "<p>Our courier will attempt to contact the recipient via phone. If they are unavailable, we will leave the flowers with building security or in a shaded, safe area (weather permitting) and notify both the sender and the recipient.</p>"
+          }
+        },
+        "category_7qkJgx": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Flower Care & Quality</strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_ptMqqB": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How long will my flowers stay fresh?</strong>",
+            "answer": "<p>Because we source our blooms daily, they typically last between 5 to 7 days. To maximize their life, follow our Flower Care guide: trim the stems at an angle and change the water every two days.</p>"
+          }
+        },
+        "question_ihgHPB": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Will my bouquet look exactly like the picture?</strong>",
+            "answer": "<p>Flowers are natural products, and each stem is unique. While we strive to match the website photos as closely as possible, minor substitutions may occur based on seasonal availability to ensure you always receive the freshest blooms.</p>"
+          }
+        },
+        "category_f8tY3r": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Refunds & Cancellations</strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_nmXbri": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I cancel or modify my order?</strong>",
+            "answer": "<p>Cancellations or changes can be made up to 24 hours before the scheduled delivery date. Unfortunately, we cannot cancel orders that have already been prepared or are out for delivery.</p>"
+          }
+        },
+        "question_rCPxNM": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What should I do if the flowers arrive damaged?</strong>",
+            "answer": "<p>Your satisfaction is our priority. If there is a quality issue, please email a photo of the arrangement to hello@florielle.ae within 6 hours of delivery so we can arrange a replacement or store credit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "question-1",
+        "question-2",
+        "question-3",
+        "category_CrWQ84",
+        "question_F7HnJh",
+        "question_gnrXw9",
+        "question_ii7Hgr",
+        "category_7qkJgx",
+        "question_ptMqqB",
+        "question_ihgHPB",
+        "category_f8tY3r",
+        "question_nmXbri",
+        "question_rCPxNM"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "faq"
+  ]
+}

@@ -13,7 +13,7 @@
     "button_border_radius": 44,
     "input_border_radius": 44,
     "product_rating_color": "#1c1c1c",
-    "product_on_sale_accent": "#e32c2b",
+    "product_on_sale_accent": "#99163a",
     "product_sold_out_badge_background": "#efefef",
     "product_custom_badge_background": "#1c1c1c",
     "success_color": "#307a07",
@@ -43,6 +43,11 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "5918707185744429496": {
+        "type": "shopify://apps/optis-product-options/blocks/bss-po-script/2c446099-c349-4e73-80cd-49c9770b7807",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -50,7 +55,7 @@
         "settings": {
           "background": "#efefef",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
+          "text_color": "#000000",
           "primary_button_background": "#1c1c1c",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
@@ -61,8 +66,8 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#1c1c1c",
+          "text_color": "#000000",
+          "primary_button_background": "#99163a",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#1c1c1c"
@@ -99,6 +104,17 @@
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "#000000"
+        }
+      },
+      "scheme-89f8dfdb-1011-48c3-b3ca-62871062ec23": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text_color": "#ffffff",
+          "primary_button_background": "#99163a",
+          "primary_button_text_color": "#ffffff",
+          "circle_button_background": "#ffffff",
+          "circle_button_icon": "#1c1c1c"
         }
       }
     }

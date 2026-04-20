@@ -32,8 +32,8 @@
             "style": "solid",
             "text": "Shop Bouquet",
             "url": "shopify://collections/birthday-flowers",
-            "background": "",
-            "text_color": ""
+            "background": "#99163a",
+            "text_color": "#ffffff"
           }
         },
         "button_eAnbPz": {
@@ -41,16 +41,16 @@
           "settings": {
             "custom_class_btn": "green-btn",
             "style": "solid",
-            "text": "Shop Bouquet",
+            "text": "Explore more",
             "url": "shopify://collections/birthday-flowers",
-            "background": "",
+            "background": "#536120",
             "text_color": ""
           }
         },
         "liquid_wXJWat": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"testimonial-card\">\n        <div class=\"image-container\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0672/5609/0690/files/Ellipse_1_1.webp?v=1776151033\" alt=\"Profile Picture\">\n        </div>\n\n        <div class=\"content-container\">\n            <span class=\"quote-icon\"><svg width=\"25\" height=\"21\" viewBox=\"0 0 25 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.4062 1.22786e-05C20.3568 1.22786e-05 21.2042 0.289346 21.9482 0.868012C22.6922 1.44668 23.2708 2.14935 23.6842 2.97601C24.0975 3.84401 24.3042 4.71201 24.3042 5.58001C24.3042 6.86134 24.1182 8.22535 23.7462 9.67201C23.3328 11.1187 22.8368 12.524 22.2582 13.888C21.6382 15.252 20.9562 16.4713 20.2122 17.546C19.4682 18.662 18.7655 19.5093 18.1042 20.088H14.1982C14.9835 18.6413 15.6448 16.926 16.1822 14.942C16.6782 12.9993 16.9675 11.0773 17.0502 9.17601C16.4302 8.80401 15.8515 8.20468 15.3142 7.37801C14.7768 6.59268 14.5082 5.78668 14.5082 4.96001C14.5082 3.67868 14.9628 2.52134 15.8722 1.48801C16.7815 0.496012 17.9595 1.22786e-05 19.4062 1.22786e-05ZM5.20818 1.22786e-05C6.15885 1.22786e-05 7.00618 0.289346 7.75018 0.868012C8.49418 1.44668 9.07285 2.14935 9.48618 2.97601C9.89951 3.84401 10.1062 4.71201 10.1062 5.58001C10.1062 6.86134 9.92018 8.22535 9.54818 9.67201C9.13485 11.1187 8.63885 12.524 8.06018 13.888C7.44018 15.252 6.75818 16.4713 6.01418 17.546C5.27018 18.662 4.56751 19.5093 3.90618 20.088H0.000178993C0.785512 18.6413 1.44685 16.926 1.98418 14.942C2.48018 12.9993 2.76951 11.0773 2.85218 9.17601C2.23218 8.80401 1.65351 8.20468 1.11618 7.37801C0.578845 6.59268 0.310179 5.78668 0.310179 4.96001C0.310179 3.67868 0.764845 2.52134 1.67418 1.48801C2.58351 0.496012 3.76151 1.22786e-05 5.20818 1.22786e-05Z\" fill=\"black\" fill-opacity=\"0.9\"/>\n</svg>\n</span>\n            <p class=\"testimonial-text\">\n                I ordered a last-minute bouquet, and they delivered it flawlessly. Exceptional service!\n            </p>\n        </div>\n    </div>"
+            "liquid": "<div class=\"testimonial-card\">\n        <div class=\"image-container\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0672/5609/0690/files/Ellipse_1_1.webp?v=1776151033\" alt=\"Profile Picture\">\n        </div>\n\n        <div class=\"content-container\">\n            <span class=\"quote-icon\"><svg width=\"25\" height=\"21\" viewBox=\"0 0 25 21\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M19.4062 1.22786e-05C20.3568 1.22786e-05 21.2042 0.289346 21.9482 0.868012C22.6922 1.44668 23.2708 2.14935 23.6842 2.97601C24.0975 3.84401 24.3042 4.71201 24.3042 5.58001C24.3042 6.86134 24.1182 8.22535 23.7462 9.67201C23.3328 11.1187 22.8368 12.524 22.2582 13.888C21.6382 15.252 20.9562 16.4713 20.2122 17.546C19.4682 18.662 18.7655 19.5093 18.1042 20.088H14.1982C14.9835 18.6413 15.6448 16.926 16.1822 14.942C16.6782 12.9993 16.9675 11.0773 17.0502 9.17601C16.4302 8.80401 15.8515 8.20468 15.3142 7.37801C14.7768 6.59268 14.5082 5.78668 14.5082 4.96001C14.5082 3.67868 14.9628 2.52134 15.8722 1.48801C16.7815 0.496012 17.9595 1.22786e-05 19.4062 1.22786e-05ZM5.20818 1.22786e-05C6.15885 1.22786e-05 7.00618 0.289346 7.75018 0.868012C8.49418 1.44668 9.07285 2.14935 9.48618 2.97601C9.89951 3.84401 10.1062 4.71201 10.1062 5.58001C10.1062 6.86134 9.92018 8.22535 9.54818 9.67201C9.13485 11.1187 8.63885 12.524 8.06018 13.888C7.44018 15.252 6.75818 16.4713 6.01418 17.546C5.27018 18.662 4.56751 19.5093 3.90618 20.088H0.000178993C0.785512 18.6413 1.44685 16.926 1.98418 14.942C2.48018 12.9993 2.76951 11.0773 2.85218 9.17601C2.23218 8.80401 1.65351 8.20468 1.11618 7.37801C0.578845 6.59268 0.310179 5.78668 0.310179 4.96001C0.310179 3.67868 0.764845 2.52134 1.67418 1.48801C2.58351 0.496012 3.76151 1.22786e-05 5.20818 1.22786e-05Z\" fill=\"black\" fill-opacity=\"0.9\"/>\n</svg>\n</span>\n            <p class=\"testimonial-text\">\n                I ordered a last-minute bouquet, and <br> they delivered it flawlessly. Exceptional <br>service!\n            </p>\n        </div>\n    </div>"
           }
         }
       },
@@ -139,7 +139,7 @@
         "image_KHJc7d": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_9.webp"
+            "image": "shopify://shop_images/attachment_7.gif"
           }
         }
       },
@@ -161,7 +161,7 @@
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 25,
         "background": "#ffffff",
-        "text_color": "#000000"
+        "text_color": "#536120"
       }
     },
     "collection_slider_home_R7cxHW": {
@@ -193,7 +193,7 @@
         "image-with-text-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Frame-2147227482_02.png",
+            "image": "shopify://shop_images/attachment_3.gif",
             "title": "Fresh Daily Flowers",
             "heading_tag": "h4",
             "content": "<p>We source fresh flowers every day to ensure every bouquet arrives vibrant and long-lasting.</p>",
@@ -204,7 +204,7 @@
         "image-with-text-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Frame-2147227482_04.png",
+            "image": "shopify://shop_images/attachment_2.gif",
             "title": "Same-Day Delivery",
             "heading_tag": "h4",
             "content": "<p>Order before 4 PM for reliable same-day flower delivery across Dubai.</p>",
@@ -215,10 +215,10 @@
         "image-with-text-3": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Frame-2147227482_06.png",
-            "title": "Handcrafted Arrangements",
+            "image": "shopify://shop_images/attachment.gif",
+            "title": "Perfect for Gifting",
             "heading_tag": "h4",
-            "content": "<p>Each bouquet is thoughtfully designed by skilled florists with attention to every detail.</p>",
+            "content": "<p>A Gift That Speaks from the Heart Beautifully designed to express your feelings<br/><br/></p>",
             "link_url": "",
             "link_text": ""
           }
@@ -226,7 +226,7 @@
         "image_with_text_RTpLce": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Frame-2147227482_09.png",
+            "image": "shopify://shop_images/attachment_1.gif",
             "title": "Secure Online Ordering",
             "heading_tag": "h4",
             "content": "<p>Enjoy a smooth and secure checkout experience with multiple payment options available.</p>",
@@ -309,7 +309,7 @@
           "type": "testimonial",
           "settings": {
             "quote": "“I love it! Far from the fashions that compress and impede movement. Soft and solid material. It can be worn casually as well as for a more formal evening.”",
-            "image": "shopify://shop_images/Ellipse_1_1.webp",
+            "image": "shopify://shop_images/attachment.png",
             "author_name": "Johanne — Customer"
           }
         },
@@ -376,7 +376,7 @@
       ],
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-89f8dfdb-1011-48c3-b3ca-62871062ec23",
         "image_size": "auto",
         "image": "shopify://shop_images/Rectangle_27.webp",
         "mobile_image": "shopify://shop_images/Rectangle_27_f40a05b7-8a30-4899-99e4-a4de130659cd.webp",

@@ -52,17 +52,6 @@
             "show_below_gallery": false
           }
         },
-        "product_features_WUWcaQ": {
-          "type": "product_features",
-          "settings": {
-            "icon_1": "shopify://shop_images/Frame-1000009344_02.png",
-            "text_1": "Fresh Daily Flowers",
-            "icon_2": "shopify://shop_images/Frame-1000009344_04.png",
-            "text_2": "Same-Day Dubai Delivery",
-            "icon_3": "shopify://shop_images/Frame-1000009344_06.png",
-            "text_3": "Secure Online Ordering"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -74,9 +63,24 @@
             "size_chart_page": ""
           }
         },
+        "product_features_WUWcaQ": {
+          "type": "product_features",
+          "settings": {
+            "icon_1": "shopify://shop_images/attachment_6.gif",
+            "text_1": "Fresh Daily Flowers",
+            "icon_2": "shopify://shop_images/attachment_5.gif",
+            "text_2": "Same-Day Dubai Delivery",
+            "icon_3": "shopify://shop_images/attachment_4.gif",
+            "text_3": "Secure Online Ordering"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
+          "settings": {}
+        },
+        "optis_product_options_option_set_JzKMjc": {
+          "type": "shopify://apps/optis-product-options/blocks/option-set/2c446099-c349-4e73-80cd-49c9770b7807",
           "settings": {}
         },
         "buy_buttons": {
@@ -143,9 +147,10 @@
         "text_ynnCTh",
         "separator",
         "description",
-        "product_features_WUWcaQ",
         "variant_picker",
+        "product_features_WUWcaQ",
         "quantity_selector",
+        "optis_product_options_option_set_JzKMjc",
         "buy_buttons",
         "accordion_Utp89L",
         "accordion_RtkVBF",
@@ -181,7 +186,7 @@
         "image_pD8PkM": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/image_9.webp"
+            "image": "shopify://shop_images/attachment_7.gif"
           }
         }
       },
@@ -203,7 +208,7 @@
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 25,
         "background": "#ffffff",
-        "text_color": "#ffffff"
+        "text_color": "#536120"
       }
     },
     "image_with_text_gpir6J": {
@@ -243,8 +248,8 @@
       "settings": {
         "color_scheme": "scheme-2",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Final-Home-page_07.webp",
-        "mobile_image": "shopify://shop_images/Final-Home-page_07.webp",
+        "image": "shopify://shop_images/Group_1000010206.webp",
+        "mobile_image": "shopify://shop_images/Group_1000010206.webp",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "lg",
@@ -259,7 +264,7 @@
           "type": "testimonial",
           "settings": {
             "quote": "“I love it! Far from the fashions that compress and impede movement. Soft and solid material. It can be worn casually as well as for a more formal evening.”",
-            "image": "shopify://shop_images/Ellipse_1_1.webp",
+            "image": "shopify://shop_images/attachment.png",
             "author_name": "Johanne — Customer"
           }
         },
@@ -322,6 +327,138 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "faq_XnBfKf": {
+      "type": "faq",
+      "blocks": {
+        "category_erKyHV": {
+          "type": "category",
+          "settings": {
+            "title": "Ordering & Personalization",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_bpFfYN": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How can I place an order?</strong>",
+            "answer": "<p>Simply browse our collections, select your preferred bouquet (like the \"Bloom Palette\"), enter the recipient's details, and proceed to checkout. You will receive an order confirmation email immediately.</p>"
+          }
+        },
+        "question_eRzBAn": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I include a personal message with the flowers?</strong>",
+            "answer": "<p>Yes, absolutely! During the checkout process, you will find a section to add a gift message. We will print your message on a premium card and tuck it safely inside the bouquet.</p>"
+          }
+        },
+        "question_FCAQWG": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you offer custom floral arrangements?</strong>",
+            "answer": "<p>We love creating something unique. If you have a specific vision or a particular flower in mind that isn't listed, please reach out to us at hello@florielle.ae and our florists will be happy to assist.</p>"
+          }
+        },
+        "category_gFpzG8": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Delivery in Dubai</strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_bUkPT3": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you offer Same-Day Delivery?</strong>",
+            "answer": "<p>Yes, we offer same-day delivery across Dubai for orders placed before [Insert Time, e.g., 1:00 PM]. Orders placed after this time will be scheduled for the following day or your chosen date.</p>"
+          }
+        },
+        "question_p4pgEU": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What are your delivery charges?</strong>",
+            "answer": "<p>Delivery fees are calculated at checkout based on the specific area in Dubai.</p>"
+          }
+        },
+        "question_BXanCM": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What happens if the recipient is not at home?</strong>",
+            "answer": "<p>Our courier will attempt to contact the recipient via phone. If they are unavailable, we will leave the flowers with building security or in a shaded, safe area (weather permitting) and notify both the sender and the recipient.</p>"
+          }
+        },
+        "category_RNMECi": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Flower Care & Quality</strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_XwyeW4": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How long will my flowers stay fresh?</strong>",
+            "answer": "<p>Because we source our blooms daily, they typically last between 5 to 7 days. To maximize their life, follow our Flower Care guide: trim the stems at an angle and change the water every two days.</p>"
+          }
+        },
+        "question_jxcLPj": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Will my bouquet look exactly like the picture?</strong>",
+            "answer": "<p>Flowers are natural products, and each stem is unique. While we strive to match the website photos as closely as possible, minor substitutions may occur based on seasonal availability to ensure you always receive the freshest blooms.</p>"
+          }
+        },
+        "category_JGLrGV": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Refunds & Cancellations</strong>",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_biNxrC": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I cancel or modify my order?</strong>",
+            "answer": "<p>Cancellations or changes can be made up to 24 hours before the scheduled delivery date. Unfortunately, we cannot cancel orders that have already been prepared or are out for delivery.</p>"
+          }
+        },
+        "question_tDciK4": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What should I do if the flowers arrive damaged?</strong>",
+            "answer": "<p>Your satisfaction is our priority. If there is a quality issue, please email a photo of the arrangement to hello@florielle.ae within 6 hours of delivery so we can arrange a replacement or store credit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_erKyHV",
+        "question_bpFfYN",
+        "question_eRzBAn",
+        "question_FCAQWG",
+        "category_gFpzG8",
+        "question_bUkPT3",
+        "question_p4pgEU",
+        "question_BXanCM",
+        "category_RNMECi",
+        "question_XwyeW4",
+        "question_jxcLPj",
+        "category_JGLrGV",
+        "question_biNxrC",
+        "question_tDciK4"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -330,6 +467,7 @@
     "image_with_text_gpir6J",
     "testimonials_tabs_AnGjBU",
     "related-products",
-    "17762331012b76a565"
+    "17762331012b76a565",
+    "faq_XnBfKf"
   ]
 }
