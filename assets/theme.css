@@ -9390,6 +9390,9 @@ display: block;
 .feature-column img {
     width: 50px;
   }
+ .collection-toolbar__button-list .collection-toolbar__button-container:last-child .collection-toolbar__button{
+  width:175px;
+ } 
 
 .quote-icon{
   right:auto;
