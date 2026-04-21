@@ -90,7 +90,7 @@
             "show_gift_card_recipient": false,
             "atc_button_background": "",
             "atc_button_text_color": "",
-            "payment_button_background": "#536120",
+            "payment_button_background": "#000000",
             "payment_button_text_color": "#ffffff"
           }
         },
@@ -208,7 +208,7 @@
         "item_horizontal_spacing_mobile": 10,
         "item_horizontal_spacing_desktop": 25,
         "background": "#ffffff",
-        "text_color": "#536120"
+        "text_color": "#000000"
       }
     },
     "image_with_text_gpir6J": {
